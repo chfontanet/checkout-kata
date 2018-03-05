@@ -1,3 +1,4 @@
+###### Developed with gradle, and using only one external library, Guava from Google, to check valid Strings, compare objects and use ImmutableList in tests.
 ###### Using Double for prices, so you can use decimals.
 
 ###### Technical test created using builder pattern to initialize Stock Keeping Units
