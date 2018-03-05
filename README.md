@@ -1,9 +1,11 @@
-###### Developed with gradle, and using only one external library, Guava from Google, to check valid Strings, compare objects and use ImmutableList in tests.
-###### Using Double for prices, so you can use decimals.
+### Description
+Developed with `gradle`, and using only one external library, `Guava` from Google, to check valid Strings, compare objects and use ImmutableList in tests.
+Using `Double` for prices, so you can use decimals.
 
-###### Technical test created using builder pattern to initialize Stock Keeping Units
+Technical test created using builder pattern to initialize Stock Keeping Units
 
-###### Initialization of Stock Keeping Units
+### Inicialization
+- Initialization of Stock Keeping Units
 
 ```
 final StockKeepingUnits sku = new InventoryFactoryBuilder().build().getInventory()
@@ -22,7 +24,8 @@ final StockKeepingUnits sku = new InventoryFactoryBuilder().build().getInventory
         .build();
 ```
 
-###### Scanning items and checkout
+### Testing
+- Scanning items and checkout
 
 ```
 final Double checkout = new Store(sku.getInventory().getItems())
